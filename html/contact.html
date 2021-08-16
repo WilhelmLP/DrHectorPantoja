@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Librerias y CDN -->
+    <!--Normalizd -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--CSS y mis Estilos -->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <title>Dr. Héctor</title>
+
+</head>
+
+<body> 
+    <div class=contenedor>
+        <header class="header">
+            <a href="index.html">
+                <h1>Dr.Héctor Xavier Pantoja Gómez</h1>
+                <h3>Especialista en Cirugia General</h3>
+            </a>
+        </header>
+
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="index.html">Inicio</a>
+                <a href="aboutme.html">Experiencia</a>
+                <a href="services.html">Servicios</a>
+                <a href="contact.html">Contacto</a>
+            </nav>
+        </div>
+
+        <div class="row contacto_sociales">
+            <a href="https://www.facebook.com/Dr-H%C3%A9ctor-Pantoja-110335690755869">
+                Facebook
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="84"
+                    height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+            </a>
+            <a href="">
+                LinkedIn
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="84"
+                    height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x="4" y="4" width="16" height="16" rx="2" />
+                    <line x1="8" y1="11" x2="8" y2="16" />
+                    <line x1="8" y1="8" x2="8" y2="8.01" />
+                    <line x1="12" y1="16" x2="12" y2="11" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                </svg>
+            </a>
+            <a>
+                Twitter
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="84"
+                    height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                </svg>
+            </a>
+            <a>
+                Instagram
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="84"
+                    height="84" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="contacto_numero">
+            <h3>Contacto</h3>
+            <h4>Para sacar citas por via telefónica</h4>
+            <p>Citas: <span>(462) 2207 930</span></p>
+            <p>Urgencias: <span>(462) 186 0005</span></p>
+        </div>
+
+        <section>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactame llenando los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" name="name" type="text" placeholder="Tu nombre" />
+                        </div>
+
+                        <div class="campo">
+                            <label>Número</label>
+                            <input class="input-text" name="phone" type="number" placeholder="Tu teléfono" />
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" name="email" type="email" placeholder="Tu correo" />
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea name="message" class="input-text"></textarea>
+                        </div>
+
+                        <input class="btn btn-info a" type="submit" value="Enviar" />
+
+                    </div> <!-- Contenedor de los campos -->
+                </fieldset>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>Todos los derechos reservados a Dr. Héctor &copy;</p>
+        </footer>
+    </div>
+    <script src="../JS/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
